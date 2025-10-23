@@ -1,2 +1,1 @@
-# proyecto-de-aula
-repositorio del proyecto del curso logica para la solucion de problemas
+Generar el redme con la descripción del proyecto
