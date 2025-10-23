@@ -1,13 +1,17 @@
-# 💳 AppBank
+AppBank
 
-Aplicación bancaria simulada desarrollada con **Spring Boot**, que emula el funcionamiento básico de una app tipo **Bancolombia** o **Nequi**, permitiendo la gestión de clientes y cuentas bancarias a través de un backend en spring boot.
+Aplicación bancaria simulada desarrollada con Spring Boot, que emula el funcionamiento básico de una app tipo Bancolombia o Nequi, permitiendo la gestión de clientes y cuentas bancarias a través de un backend en Spring Boot.
 
 ---
 
 ## Características principales
 
-- Datos gestionados desde archivos JSON (`customers.json`, `accounts.json`), puesto que durante el proyecto no se implementó una conexión con una base de datos, por lo cual se da uso a extensiones de la IDE Visual Studio Code(`extension thunder Client`) para insertar los datos en dichos .JSON  y hacer uso del programa; de lo contrario este presentara un error por falta de los datos necesarios para la ejecucion del programa. 
-- Arquitectura modular con separación entre controladores, servicios y modelos (comunmente conocida como `MVC modelo-vista-controlador`), lo que permite un codigo limpio, estructurado y escalable.
+- Los datos se gestionan desde archivos JSON (`customers.json`, `accounts.json`), ya que durante el desarrollo del proyecto no se implementó una conexión con una base de datos.
+  Para insertar y manipular los datos se utiliza la extensión Thunder Client en la IDE Visual Studio Code, que permite realizar peticiones HTTP y modificar los archivos JSON.
+  En caso de no cargar los datos correctamente, el programa generará un error por la falta de información necesaria para su ejecución.
+
+- El proyecto sigue una arquitectura modular con separación entre controladores, servicios y modelos, comúnmente conocida como MVC (Modelo–Vista–Controlador).
+  Esto permite mantener un código limpio, estructurado y escalable.
 
 ---
 
@@ -59,44 +63,55 @@ Aplicación bancaria simulada desarrollada con **Spring Boot**, que emula el fun
 
 ---
 
-## FUTURAS MEJORAS QUE SE PUEDEN TENER EN CUENTA
+## Futuras mejoras que se pueden tener en cuenta
 
-- Implementacion de una base de datos con MySQL mediante la implementacion de la libreria `mysql-connector-j`
-- Implementacion de un frontend con dependencias como `Thymeleaf`y asi darle diseño, funcionalidad e interactividad con lenguages como `HTML`, `CSS` y `JavaScript/TypeScript`
-- Implementar un servidor para que dicha aplicacion funcione en la red y no solo como proyecto de aula sino tambien sea lanzada como una aplicacion de uso cotidiano la cual resuelva el problema de servicios de acceso financiero, como pagos, trasnferencias, consultas de saldos de manera comoda y digital
-
----
-
-## TECNOLOGIAS Y DEPENDENCIAS
-
--- Java17+
--- Springboot 3.5.6
--- Springweb
--- Spring-boot-devtools
--- Maven
--- JSON
--- Javadoc
+- Implementación de una base de datos relacional (por ejemplo, MySQL) mediante la librería mysql-connector-j.
+- Creación de un frontend utilizando dependencias como Thymeleaf, con diseño e interactividad a través de HTML, CSS y JavaScript/TypeScript.
+- Implementación de un servidor que permita ejecutar la aplicación en red, con el objetivo de convertirla en una herramienta funcional de uso cotidiano que facilite operaciones financieras como pagos, transferencias y consultas de saldo de forma cómoda y digital.
 
 ---
 
-## EJECUCION DEL PROYECTO
+## Tecnologías y dependencias
 
--- Tener instalado Java 17 o superior
--- Tener Maven configurado
--- Ejecutar esto en una IDE como `Visual Studio Code`
--- Iniciar la aplicacion desde el `Main.java` y fijarse en el puerto inicializado por el servidor `TOMCAT`
--- ingresar al navegador con la direccion `localhost:(puerto dado)`
--- Ingresar los datos a los archivos .JSON con `Thunder Client`
--- DIsfrutar
+- Java 17+
+- Spring Boot 3.5.6
+- Spring Web
+- Spring Boot DevTools
+- Maven
+- JSON
+- Javadoc
 
 ---
 
-## COMANDOS DE EJECUCION EN LINUX
+## Ejecución del proyecto
 
--- mvn clean package
--- mvn spring-boot:run o java -jar target/appbank-0.0.1-SNAPSHOT.jar (requiere instalacion de maven y compilador de java)
+1. Tener instalado Java 17 o una versión superior.
+2. Tener Maven configurado en el sistema.
+3. Abrir el proyecto en una IDE como Visual Studio Code.
+4. Iniciar la aplicación desde la clase Main.java y verificar el puerto asignado por el servidor Tomcat.
+5. Acceder a la aplicación desde el navegador en la dirección localhost:(puerto asignado).
+6. Insertar los datos en los archivos .json utilizando Thunder Client.
+7. Ejecutar y utilizar la aplicación.
 
-## LICENCIA
+---
 
-- Juan Sebastian Rios Rodriguez
-- Proyecto académico desarrollado en el marco del curso proyecto de aula
+## Comandos de ejecución en Linux
+
+mvn clean package
+
+mvn spring-boot:run
+
+O bien:
+
+java -jar target/appbank-0.0.1-SNAPSHOT.jar
+
+(Requiere la instalación de Maven y un compilador de Java configurado correctamente.)
+
+---
+
+## Licencia
+
+Proyecto académico desarrollado por Juan Sebastián Ríos Rodríguez 
+en el marco del curso Proyecto de Aula.
+
+Se hizo uso de la IA para la redacción de este documento, mas no para la realización del mismo.
