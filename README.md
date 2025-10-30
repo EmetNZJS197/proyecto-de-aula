@@ -17,28 +17,51 @@ Aplicación bancaria simulada desarrollada con Spring Boot, que emula el funcion
 
 ## Ejemplo de la estructura del proyecto
 
-```
-bank-app/
-├── src/
-│   ├── main/java/com/logsoluprobl/appbank/
-│   │   ├── app/                     # Clase principal
-│   │   │   └── BankAppApplication.java
-│   │   ├── model/                   # Modelos de dominio (Account, Customer, etc.)
-│   │   ├── service/                 # Lógica de negocio
-│   │   ├── repository/              # Persistencia con JSON
-│   │   ├── controller/              # Controladores REST
-│   │   ├── exception/               # Excepciones personalizadas
-│   │   ├── util/                    # Utilidades de lectura/escritura JSON
-│   │   └── config/                  # Configuración de OpenAPI (Swagger)
-│   └── resources/
-│       ├── application.properties   # Configuración de Spring
-│       ├── data/
-│       │   ├── customers.json
-│       │   └── accounts.json
-│       └── static/
-│
-└── pom.xml
-```
+...
+├── data
+│   ├── accounts.json
+│   └── customers.json
+├── docs
+│   ├── allclasses-index.html
+│   ├── allpackages-index.html
+│   ├── com
+│   ├── copy.svg
+│   ├── element-list
+│   ├── help-doc.html
+│   ├── index-all.html
+│   ├── index.html
+│   ├── legal
+│   ├── link.svg
+│   ├── member-search-index.js
+│   ├── module-search-index.js
+│   ├── overview-tree.html
+│   ├── package-search-index.js
+│   ├── resources
+│   ├── script-dir
+│   ├── script.js
+│   ├── search.html
+│   ├── search.js
+│   ├── search-page.js
+│   ├── stylesheet.css
+│   ├── tag-search-index.js
+│   └── type-search-index.js
+├── LICENSE
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── README.md
+├── src
+│   ├── main
+│   └── test
+└── target
+    ├── appbank-0.0.1-SNAPSHOT.jar
+    ├── appbank-0.0.1-SNAPSHOT.jar.original
+    ├── classes
+    ├── maven-archiver
+    ├── maven-status
+    ├── surefire-reports
+    └── test-classes
+...
 
 ---
 
