@@ -97,6 +97,48 @@ Aplicación bancaria simulada desarrollada con Spring Boot, que emula el funcion
 
 ---
 
+## Demostracion de Ejecucion (Pruebas Postman)
+
+lo primero que debera hacer es abrir el proyecto y dirigirse al main, para posteriormente ejecutarlo, siendo el resultado algo como esto
+<img width="1848" height="1042" alt="image" src="https://github.com/user-attachments/assets/afff5689-fc13-4af1-b5de-e63568762bd9" />
+
+despues debera asegurarse de tener instalada la extension Thunder Client
+<img width="1000" height="592" alt="image" src="https://github.com/user-attachments/assets/ec0b01f7-6326-43fc-a9af-391b3bfacd0e" />
+
+una vez hecho esto debera irse a la pestaña de esta extension y pulsar **new request**
+<img width="297" height="117" alt="image" src="https://github.com/user-attachments/assets/9412bc8d-495e-475c-9a69-69b276ecc845" />
+
+lo primero que haremos sera crear un nuevo cliente para nuestra aplicacion ingresando la url mostrada en la foto de tipo post y se ingresaran los datos como se muestra en el body del JSON y el resultado se mostrara en la ventana derecha
+<img width="1489" height="566" alt="image" src="https://github.com/user-attachments/assets/9c358d43-e647-44a3-966c-e4d50b08291a" />
+
+a continuacion pondremos la misma url pero esta vez con el id del cliente seguido de "/accounts" y asi tendriamos nuestra cuenta creada
+<img width="1489" height="566" alt="image" src="https://github.com/user-attachments/assets/6e34954c-8043-47c1-b7e0-c8218b1f3ec2" />
+
+si usted desea buscar un cliente debera hacerlo por su id como se muestra a continuacion
+<img width="1489" height="566" alt="image" src="https://github.com/user-attachments/assets/56126ab8-bee8-489b-9b90-d3d6dadbdc77" />
+
+o si usted desea ver todos los clientes podra hacerlo de esta manera
+<img width="1489" height="566" alt="image" src="https://github.com/user-attachments/assets/0ca6eda8-72db-4e53-96b6-19bb8cb0d3ae" />
+
+para consultar las transacciones puede hacerlo de la siguiente forma
+<img width="1489" height="566" alt="image" src="https://github.com/user-attachments/assets/5af11a9b-789d-4f8a-b5d2-3b83bf2a519e" />
+
+
+---
+
+
+## Swagger
+tambien puede acceder a http://localhost:8080/swagger-ui/index.html para testear el programa en lugar de usar thunderclient y ademas observar la documentacion
+aqui tiene algunos ejemplos
+<img width="1448" height="580" alt="image" src="https://github.com/user-attachments/assets/de9906ae-bff3-4830-a6d0-9a953a26cd27" />
+<img width="1458" height="804" alt="image" src="https://github.com/user-attachments/assets/3ab04d8c-4087-450a-99ff-27371a66df22" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac482773-500b-4fac-8d91-be393c9b4d4d" />
+
+
+
+---
+
+
 ## Comandos de ejecución en Linux
 
 mvn clean package
