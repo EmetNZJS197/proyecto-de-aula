@@ -133,6 +133,7 @@ aqui tiene algunos ejemplos
 
 <img width="1448" height="580" alt="image" src="https://github.com/user-attachments/assets/de9906ae-bff3-4830-a6d0-9a953a26cd27" />
 <img width="1458" height="804" alt="image" src="https://github.com/user-attachments/assets/3ab04d8c-4087-450a-99ff-27371a66df22" />
+<img width="1333" height="959" alt="image" src="https://github.com/user-attachments/assets/1af41904-615b-4eb8-abce-5203068f15f6" />
 <img width="1333" height="959" alt="image" src="https://github.com/user-attachments/assets/1a1691cf-23d0-401d-b1cb-ae1ac7d2123a" />
 
 
